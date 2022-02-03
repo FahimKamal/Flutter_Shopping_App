@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:shopping_app/constants.dart';
-import 'package:shopping_app/homepage/components/heading_widget.dart';
-import 'package:shopping_app/homepage/components/image_slider.dart';
-import 'package:shopping_app/models/Product_models.dart';
 
 import 'components/Hottest_deals.dart';
 import 'components/brand_display.dart';
+import 'components/image_slider.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -26,7 +24,7 @@ class _HomePageState extends State<HomePage> {
           const ComplicatedImageDemo(),
           Padding(
             padding: const EdgeInsets.all(defaultPadding),
-            child: Container(
+            child: SizedBox(
               width: double.maxFinite,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
