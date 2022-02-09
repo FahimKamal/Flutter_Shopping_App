@@ -89,18 +89,21 @@ class _DetailPageState extends State<DetailPage> {
                     ),
                     const SizedBox(height: defaultPadding * 1.5),
                     Center(
-                      child: SizedBox(
-                        width: 200,
-                        height: 48,
-                        child: ElevatedButton(
-                          style: ElevatedButton.styleFrom(
-                              primary: thirdColor,
-                              shape: const StadiumBorder()
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(vertical: defaultPadding),
+                        child: SizedBox(
+                          width: 200,
+                          height: 48,
+                          child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                                primary: thirdColor,
+                                shape: const StadiumBorder()
+                            ),
+                            onPressed: () {
+                              showMessage(context: context, message: 'Product is added to cart.');
+                            },
+                            child: const Text('Add to Cart'),
                           ),
-                          onPressed: () {
-                            showMessage(context: context, message: 'Product is added to cart.');
-                          },
-                          child: const Text('Add to Cart'),
                         ),
                       ),
                     )

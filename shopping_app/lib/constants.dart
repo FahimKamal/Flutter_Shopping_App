@@ -35,6 +35,7 @@ class StaticData {
     Product(
         name: 'Nokia 101',
         price: '3500 BDT TK',
+        discount: '20',
         weight: '300 g',
         brand: 'Nokia',
         category: 'Smart Phone',
@@ -44,6 +45,7 @@ class StaticData {
     Product(
         name: 'FHD Smart TV 5300',
         price: '35000 BDT TK',
+        discount: '7',
         weight: '6.5 Kg',
         brand: 'Samsung',
         category: 'TV',
@@ -53,6 +55,7 @@ class StaticData {
     Product(
         name: 'Apple MacBook pro',
         price: '165000 BDT TK',
+        discount: '12',
         weight: '2.5 Kg',
         brand: 'Apple',
         category: 'Computer',
@@ -61,6 +64,7 @@ class StaticData {
     ),
     Product(
         name: 'Apple iPhone 13 Pro',
+        discount: '10',
         price: '108500 BDT TK',
         weight: '0.3 Kg',
         brand: 'Apple',
@@ -71,6 +75,7 @@ class StaticData {
     Product(
         name: 'CASIO Illuminator Watch',
         price: '7500 BDT TK',
+        discount: '25',
         weight: '100 g',
         brand: 'Casio',
         category: 'Watch',

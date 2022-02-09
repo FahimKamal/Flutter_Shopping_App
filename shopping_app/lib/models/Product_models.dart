@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
-class Product{
+class Product {
   String? name;
   String? price;
+  String? discount;
   String? weight;
   String? brand;
   String? category;
@@ -12,6 +13,7 @@ class Product{
   Product(
       {this.name,
       this.price,
+      this.discount,
       this.weight,
       this.brand,
       this.category,
